@@ -34,7 +34,7 @@ async function updateStats () {
     /**
      * TODO:
      * - Utiliser l'API chrome.storage.local pour récupérer les stats du site actuel
-     * - Remplacer le contenue de textCounter et titleCounter avec les résultats
+     * - Remplacer le contenu de textCounter et titleCounter avec les résultats
      */
 }
 
