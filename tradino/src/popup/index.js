@@ -15,7 +15,7 @@ async function getActiveTab () {
 }
 
 /**
- * Envois un message au content-script
+ * Envoie un message au content-script
  * @param {string} type Le type du message
  * @param {*} data La donnée à envoyer
  * @returns La réponse du content-script
@@ -26,7 +26,7 @@ async function sendMessageToContentScript (type, data = null) {
 }
 
 /**
- * Met à jours les stats pour le site actuel
+ * Met à jour les stats pour le site actuel
  */
 async function updateStats () {
     const tab = await getActiveTab()
